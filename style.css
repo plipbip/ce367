@@ -1,0 +1,52 @@
+
+*{
+    background-color:#9bff00;
+    margin:20px
+}
+
+.deer
+{
+background-color:rgb(107, 46, 2);
+padding:25px
+}
+
+.rhinoceros
+{
+background-color:grey;
+padding:25px
+}
+
+.unicorn
+{
+    background-color:white;
+    padding:25px
+}
+
+.scorpians
+{
+    background-color:silver;
+    padding:25px
+}
+a:link{color:purple}
+a:visited{color:red}
+
+.monky
+{
+position:relative;
+
+}
+
+.monky p
+{
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity:0;
+}
+
+.monky :hover p
+{opacity:1;
+}
+
+.monky :hover img{opacity:0.33};
